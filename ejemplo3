@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>heartmv.com</title>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	b{
+		font-size:50px;
+		margin:50px;
+	}
+	.b3::before{
+		content:"\2602"; / * Cómo usar CSS * /
+	}
+	
+</style>
+</head>
+
+<body>
+	<!--Tres formas de usar el juego de caracteres Unicode html, javascript, css-->
+	<!--uso de html-->
+	<b>☀</b>
+	
+	<!--uso de javascript-->
+	<b class="b2"></b>
+	
+	<!--uso de css-->
+	<b class="b3"></b>
+	
+	<script>
+		var b2=document.querySelector('.b2');
+		b2.innerHTML='\u2601'; // uso de javascript, solo agregue u después del código css \
+	</script>
+</body>
+</html>
