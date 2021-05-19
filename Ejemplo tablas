@@ -9,95 +9,95 @@
     }  
   </style>  
 </head>
-<body>
-
+<body bgcolor=#D4E157>
+<TABLA UNO>
 <table class="default"> 
-  <tr> 
-    <th>Hoy</th>
-    <th>Mañana</th> 
-    <th>Miércoles</th> 
+  <tr bgcolor=#5D7B9D> 
+    <th ><font color=#FFEE58><h3>Hoy</h3></th>
+    <th ><font color=#FFEE58><h3>Mañana</h3></th> 
+    <th ><font color=#FFEE58><h3>Miércoles</h3></th> 
   </tr>
- 
- <tr> 
+  <tr> 
   <td>Soleado</td> 
   <td>Mayormente soleado</td> 
 <td>Parcialmente nublado</td>
 </tr> 
-
 <tr> 
   <td>19°C</td> 
   <td>17°C</td>
   <td>12°C</td> 
 </tr> 
-
+<font color=#FFEE58>
 <tr> 
   <td>E 13 km/h</td>
   <td>E 11 km/h</td> 
   <td>S 16 km/h</td> 
 </tr>
 </table>
-
+<br>
+<br>
 <table class="default">
-<tr> 
-  <th scope="row">Día</th>
-  <th>Hoy</th>
-  <th>Mañana</th>
-  <th>Miércoles</th> 
+<tr bgcolor=#B71C1C> 
+  <th scope="row"><font color=#FFf>Día</th>
+  <th><font color=#FFf>Hoy</th>
+  <th><font color=#FFf>Mañana</th>
+  <th><font color=#FFf>Miércoles</th> 
 </tr>
 
-<tr> 
-  <th>Condición</th>
+<tr > 
+  <th bgcolor=#B71C1C><font color=#FFf>Condición</th>
   <td>Soleado</td>
   <td>Mayormente soleado</td> 
   <td>Parcialmente nublado</td> 
 </tr> 
 
 <tr>
-  <th>Temperatura</th> 
+  <th bgcolor=#B71C1C><font color=#FFf>Temperatura</th> 
   <td>19°C</td>   
   <td>17°C</td> 
   <td>12°C</td> 
 </tr>
 
 <tr> 
-  <th>Vientos</th> 
+  <th bgcolor=#B71C1C><font color=#FFf>Vientos</th> 
   <td>E 13 km/h</td> 
   <td>E 11 km/h</td> 
   <td>S 16 km/h</td> 
 </tr> 
 </table>
-
-
+<br>
+<br>
 <table class="default"> 
-  <tr> 
+  <tr bgcolor=#B2EBF2> 
     <th></th>
-    <th>Básico</th>  
-    <th>Completo</th> 
+    <th><font color=#0D47A1> Básico</th>  
+    <th><font color=#0D47A1>Completo</th> 
   </tr> 
-  <tr>
-    <th>Instalación</th> 
+  <tr >
+    <th bgcolor=#B2EBF2 ><font color=#0D47A1>Instalación</th> 
     <td rowspan="2">Gratis!</td> 
     <td>$49.99</td> 
   </tr>
   <tr> 
-    <th>Primer año</th> 
+    <th bgcolor=#B2EBF2><font color=#0D47A1>Primer año</th> 
     <td>$19.99</td> 
   </tr>
   <tr> 
-    <th>Segundo año</th> 
+    <th bgcolor=#B2EBF2><font color=#0D47A1>Segundo año</th> 
     <td>$9.99</td>
-    <td>$29.99</td> 
+    <td bgcolor=#C62828><font color=#FFEE58>$29.99</td> 
   </tr> 
   </table>
-
+<br>
+<br> 
 <table class="default"> 
   <thead> 
-    <tr> 
+    <tr bgcolor=#fff> 
       <th></th> 
       <th colspan="2">Anthony</th> 
       <th colspan="2">Lione</th> 
     </tr> 
-    <tr> 
+    <tr bgcolor=#B0BEC5> 
       <th CENTRO DE EDUCACIÓN TÉCNICO PRODUCTIVA “HUANCAYO”
 Loc. 1 Av. La Marina Nº 881 – Loc. 2 Av. Mariscal Castilla Nº 4698,
 El Tambo Huancayo scope="col">Fecha</th> 
@@ -110,7 +110,7 @@ El Tambo Huancayo scope="col">Fecha</th>
   <tbody> 
 
   <tr>
-    <th>15/07</th> 
+    <th bgcolor=#C62828><font color=#fff>15/07</th> 
     <td>$200,00</td> 
     <td>$50,00</td> 
     <td>$0</td>
@@ -118,7 +118,7 @@ El Tambo Huancayo scope="col">Fecha</th>
   </tr> 
 
   <tr> 
-    <th>28/07</th> 
+    <th bgcolor=#C62828><font color=#fff>28/07</th> 
     <td>$0,00</td> 
     <td>$100,00</td>
     <td>$100,00</td> 
@@ -126,7 +126,7 @@ El Tambo Huancayo scope="col">Fecha</th>
   </tr> 
 
   <tr> 
-    <th>09/08</th>
+    <th bgcolor=#C62828><font color=#fff>09/08</th>
     <td>$0,00</td> 
     <td>$50,00</td> 
     <td>$0,00</td> 
@@ -134,7 +134,7 @@ El Tambo Huancayo scope="col">Fecha</th>
   </tr>
 
   <tr> 
-    <th>22/08</th> 
+    <th bgcolor=#C62828><font color=#fff>22/08</th> 
     <td>$40,00</td> 
     <td>$0,00</td> 
     <td>$0,00</td>
@@ -159,4 +159,3 @@ El Tambo Huancayo scope="col">Fecha</th>
 </tfoot> 
 </table>
   </body>
-</html>
